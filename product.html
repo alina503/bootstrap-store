@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <form
+          class="d-flex align-items-center m-0 input-group-sm"
+          role="search"
+        >
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-sm btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container py-4">
+      <h2 id="productTitle">Product Title</h2>
+      <div class="row">
+        <div class="col-12 bg-body-tertiary col-sm-6">
+          <div id="carouselExample" class="carousel slide">
+            <div id="productImgCarusel" class="carousel-inner">
+              <div
+                class="carousel-item active w-full ratio ratio-4x3 bg-primary"
+              >
+                <img src="..." class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item w-full ratio ratio-4x3 bg-secondary">
+                <img src="..." class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item w-full ratio ratio-4x3 bg-success">
+                <img src="..." class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12 bg-body-tertiary col-sm-6 py-4">
+          <div>
+            <div class="d-flex gap-2">
+              <h2
+                id="productTotalPrice"
+                class="fs-5 text text-decoration-line-through"
+              >
+                2.699Lei
+              </h2>
+              <p id="productDiscount" class="bg-warning p-1 rounded">-41%</p>
+            </div>
+            <h2 id="productDiscountPrice" class="fs-4 text-danger">1549Lei</h2>
+          </div>
+          <p>Categorie: <span id="productCtegory">Masina de spalat</span></p>
+          <p>
+            Descriere:
+            <span id="productDescription"
+              >MOTOR INVERTER POWERDRIVE Motor puternic, dar silentios Acest
+              motor silentios, dar foarte eficient, este proiectat pentru o
+              viata indelungata a uscatorului dvs., economisind energie cu
+              fiecare ciclu.</span
+            >
+          </p>
+
+          <button
+            id="productBuy"
+            type="button"
+            class="btn btn-danger btn-lg px-5"
+          >
+            Danger
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./vendor/bootstrap.min.js"></script>
+    <!-- <script src="./script/script.js"></script> -->
+  </body>
+</html>
