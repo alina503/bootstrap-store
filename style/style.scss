@@ -1,7 +1,11 @@
 .custom-card {
   max-width: 350px;
+  min-height: 355px;
   @media (max-width: 575.98px) {
     margin-left: auto;
     margin-right: auto;
+  }
+  .card {
+    min-height: 355px;
   }
 }
