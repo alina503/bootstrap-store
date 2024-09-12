@@ -41,7 +41,7 @@ const productCard = (product) => {
   price.innerHTML = `$${product.price}`;
   const btn = document.createElement("a");
   btn.setAttribute("class", "btn btn-primary");
-  btn.setAttribute("href", "#");
+  btn.setAttribute("href", `/product.html?id=${product.id}`);
   btn.innerHTML = "See Details";
 
   const priceContainerBtn = document.createElement("div");
