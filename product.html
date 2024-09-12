@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar bg-body-tertiary">
       <div class="container d-flex align-items-center">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="/">All Products</a>
         <form
           class="d-flex align-items-center m-0 input-group-sm"
           role="search"
@@ -33,21 +33,9 @@
       <div class="row">
         <div class="col-12 bg-body-tertiary col-sm-6">
           <div id="carouselExample" class="carousel slide">
-            <div id="productImgCarusel" class="carousel-inner">
-              <div
-                class="carousel-item active w-full ratio ratio-4x3 bg-primary"
-              >
-                <img src="..." class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item w-full ratio ratio-4x3 bg-secondary">
-                <img src="..." class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item w-full ratio ratio-4x3 bg-success">
-                <img src="..." class="d-block w-100" alt="..." />
-              </div>
-            </div>
+            <div id="productImgCarusel" class="carousel-inner"></div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev text-dark"
               type="button"
               data-bs-target="#carouselExample"
               data-bs-slide="prev"
@@ -59,7 +47,7 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next text-dark"
               type="button"
               data-bs-target="#carouselExample"
               data-bs-slide="next"
@@ -86,7 +74,7 @@
             </div>
             <h2 id="productDiscountPrice" class="fs-4 text-danger">1549Lei</h2>
           </div>
-          <p>Categorie: <span id="productCtegory">Masina de spalat</span></p>
+          <p>Categorie: <span id="productCategory">Masina de spalat</span></p>
           <p>
             Descriere:
             <span id="productDescription"
@@ -109,6 +97,6 @@
     </div>
 
     <script src="./vendor/bootstrap.min.js"></script>
-    <!-- <script src="./script/script.js"></script> -->
+    <script src="./script/product.js"></script>
   </body>
 </html>
