@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en"></html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,34 +10,31 @@
   <body>
     <nav class="navbar bg-body-tertiary">
       <div class="container d-flex align-items-center">
-        <a class="navbar-brand" href="#">All Products</a>
+        <a class="navbar-brand" href="/">All Products</a>
         <form
           class="d-flex align-items-center m-0 input-group-sm"
           role="search"
         >
-          <input
-            id="inputSearch"
+          <input id="inputSearch"
             class="form-control me-2"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
-          <button
-            id="btnSearch"
-            class="btn btn-sm btn-outline-success"
-            type="submit"
-          >
+          <button id="btnSearch" class="btn btn-sm btn-outline-success" type="submit">
             Search
           </button>
         </form>
       </div>
     </nav>
-    <div class="container py-4">
-      <div id="productsList" class="row"></div>
-    </div>
 
-    <script src="./vendor/bootstrap.min.js"></script>
-    <script src="./script/script.js"></script>
+    <div class="container py-4">
+        <div id="searchProductsList" class="row"></div>
+      </div>
+
+
+
+    <script src="./vendor/bootstr/ap.min.js"></script>
     <script src="./script/search.js"></script>
   </body>
 </html>
